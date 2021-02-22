@@ -14,6 +14,7 @@ NUMBER_OF_SQUARES = 20
 SQUARE_SIZE = 20 
 
 screen =pygame.display.set_mode((400,400))
+pygame.display.set_caption("GAME OF LIFE")
 
 RED = (255,0,0)
 GREEN = (0,255,0)
